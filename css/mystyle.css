@@ -1,0 +1,170 @@
+body {
+    /*background-image:  url("../img/white-mosaic.jpg");*/
+    /*background-size: contain;*/
+    background-color: #c5b358;
+}
+
+.navbar-brand {
+    background-image: url("../img/casa-mila-sold-sm.jpg");    
+    color: #3399ff;
+    height: 70px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.navbar {
+    background-image:url("../img/mosaic-blue-nar2.jpg");
+    background: cover;
+    color: white;
+    margin: 0px;
+    height: 70px;
+   
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 16px;
+    line-height: 32px;
+     text-align: center;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-image: url("../img/mosaic-bkgd-golden-sm2.jpg");
+    color: white;
+    height: 70px;
+}
+    
+.navbar-toggle {
+    background-image: url("../img/park-guell-mosaic.jpg");
+}    
+
+.jumbotron {
+    background-image: url("../img/bench-616512.jpg"); 
+    height: 450px;
+    margin-top: 0px;
+    background: cover;
+}
+
+.jumbotron img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*@media only screen and (min-width: 648px) {
+    .jumbotron img {
+     width: 60%;
+     height: 60%;
+}
+
+.jumbotron img {
+    text-align: center;
+    margin-top: 50px;
+}
+}*/
+
+.mosaic {
+    background-image: url("../img/mosaic-bkgd-golden-nar2.jpg");  /*url("../img/white-mosaic.jpg");*/
+    height: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/*.container {
+    /*background-color: /*#ffff99; #c5b358;*/
+   /* border-radius: 8px;
+   margin-top: 50px;
+   padding-top: 20px;
+}*/
+
+
+p {
+    font-size: 16px;
+    font-family: 'Secular One', sans-serif;
+    text-align: left;
+    color: black;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+/*.row2  {
+    background: none;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}*/
+
+}     
+#carousel-familia {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+
+.img-thumbnail {
+   background-color: #004280;
+}
+
+h2 {
+    display: none;
+    position: relative;
+    font-family: 'Secular', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#toChange {
+    display: none;
+}
+
+
+
+  /*countdown*/
+h1{
+  color: #004280;
+  font-size: 30px;
+  margin-bottom 20px;
+  font-family: 'Secular', sans-serif;
+  text-align: center;
+}
+
+#clockdiv {
+    font-family: 'Secular', sans-serif;
+    color: #3399ff;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    background: #990000;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #caba68;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+.parallax {
+    background-image: url("../img/bench-616512.jpg"); 
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

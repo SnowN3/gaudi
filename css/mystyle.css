@@ -1,6 +1,7 @@
+
+/*"originality consists of going back to the origins"*/
+
 body {
-    /*background-image:  url("../img/white-mosaic.jpg");*/
-    /*background-size: contain;*/
     background-color: #c5b358;
 }
 
@@ -13,95 +14,121 @@ body {
 }
 
 .navbar {
-    background-image:url("../img/mosaic-blue-nar2.jpg");
-    background: cover;
+    background-image:url("../img/mosaic-blue-nar.jpg");
     color: white;
-    margin: 0px;
+    margin-bottom: 0px;
     height: 70px;
-   
+    border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: white;
     font-size: 16px;
     line-height: 32px;
-     text-align: center;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav > .active > a {
     background-image: url("../img/mosaic-bkgd-golden-sm2.jpg");
+    /*background-size: contain;*/
     color: white;
     height: 70px;
+    margin-bottom: 0px;
 }
     
 .navbar-toggle {
     background-image: url("../img/park-guell-mosaic.jpg");
 }    
 
+.navbar-default .navbar-nav > li > a:hover {
+    color: white; 
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    color: white; 
+}
+
+
+@media screen and (max-width: 766px) {
+    #headblurb {
+        margin-top: 400px;
+} 
+}
+
+
 .jumbotron {
     background-image: url("../img/bench-616512.jpg"); 
     height: 450px;
-    margin-top: 0px;
+    margin-top: -40px;
     background: cover;
 }
 
-.jumbotron img {
-    text-align: center;
-    margin-top: 50px;
-}
-
-/*@media only screen and (min-width: 648px) {
-    .jumbotron img {
-     width: 60%;
-     height: 60%;
+.jumbotron .container {
+  margin-top: 0px;
 }
 
 .jumbotron img {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px
 }
-}*/
 
 .mosaic {
-    background-image: url("../img/mosaic-bkgd-golden-nar2.jpg");  /*url("../img/white-mosaic.jpg");*/
+    background-image: url("../img/mosaic-bkgd-golden-nar2.jpg"); 
+    background-size: contain;
     height: 70px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
-
-
-/*.container {
-    /*background-color: /*#ffff99; #c5b358;*/
-   /* border-radius: 8px;
-   margin-top: 50px;
-   padding-top: 20px;
-}*/
-
 
 p {
     font-size: 16px;
     font-family: 'Secular One', sans-serif;
-    text-align: left;
-    color: black;
+    text-align: justify;
+    color: #00004d;
     margin-top: 50px;
     padding-top: 20px;
 }
 
-/*.row2  {
-    background: none;
-    padding-top: 20px;
-    text-align: center;
-    border-radius: 8px;
-}*/
-
-}     
 #carousel-familia {
     padding-top: 50px;
     margin-top: 50px;
 }
 
+#top a {
+    text-decoration: none;
+}
 
+.glyphicon {
+  color: #b37700;   
+}
+
+.dropdown-menu > li > a {
+    color: white; /*#00004d;*/
+    background-image: url("../img/mosaic-bkgd-golden-nar2.jpg");
+    font-family: 'Secular', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-align: center;
+}   
+
+.dropdown-menu {
+    background-color: #c5b358;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #00004d;
+}
+
+/* #dLabel {
+     color: white; 
+ }*/
+ 
+#dLabel a:hover {
+     color: #c5b358;
+ }
+ 
 .img-thumbnail {
+   border: 1px;
    background-color: #004280;
 }
 
@@ -109,62 +136,53 @@ h2 {
     display: none;
     position: relative;
     font-family: 'Secular', sans-serif;
-    font-size: 16px;
-    color: white;
+    font-size: 22px;
     text-align: center;
 }
 
 
 
+/*-------------------------------------------------------*/
 
-#toChange {
-    display: none;
+body{
+	text-align: center;
+	background: #c5b358;
+    font-family: 'Secular', sans-serif;
+    font-weight: 100;
 }
 
-
-
-  /*countdown*/
-h1{
+h1 {
   color: #004280;
-  font-size: 30px;
-  margin-bottom 20px;
-  font-family: 'Secular', sans-serif;
+  font-size: 25px;
+  margin: 40px 0px 20px;
   text-align: center;
+  font-family: 'Secular', sans-serif;
 }
 
 #clockdiv {
-    font-family: 'Secular', sans-serif;
-    color: #3399ff;
-    display: inline-block;
-    text-align: center;
-    font-size: 30px;
+	font-family:'Secular', sans-serif;
+	color:  #caba68;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
 }
 
 #clockdiv > div {
-    padding: 10px;
-    border-radius: 3px;
-    background: #990000;
-    display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+	background: /* #800000;*/#001833;
+	display: inline-block;
 }
 
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #caba68;
-    display: inline-block;
+#clockdiv div > span {
+	padding: 15px;
+	border-radius: 3px;
+	background: #004280;
+	display: inline-block;
 }
 
 .smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-}
-
-
-.parallax {
-    background-image: url("../img/bench-616512.jpg"); 
-    height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	padding-top: 5px;
+	font-size: 16px;
 }
